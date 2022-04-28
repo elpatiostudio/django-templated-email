@@ -69,4 +69,3 @@ def send_templated_mail(template_name, from_email, recipient_list, context,
                            cc=cc, bcc=bcc, fail_silently=fail_silently,
                            headers=headers, create_link=create_link, 
                            connection=connection, **kwargs)
-, 
